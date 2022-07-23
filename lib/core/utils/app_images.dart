@@ -6,7 +6,7 @@ class AppImages {
   static const String _assetPath = 'assets';
 
   // path for all images
-  static const String _appImagesPath = '$_assetPath/images';
+  static const String _appImagesPath = _assetPath;
 
   // app icon
   static const String appIcon = '$_appImagesPath/app_icon.png';
