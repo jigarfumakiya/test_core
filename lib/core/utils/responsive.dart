@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_core/core/utils/screen_utils.dart';
 
 /// Provide different designs for [mobile], [tablet] and [desktop] devices
 
@@ -32,10 +33,10 @@ class Responsive extends StatelessWidget {
     return LayoutBuilder(
       /// If our width is more than 1100 then we consider it a desktop
       builder: (context, constraints) {
-        // ScreenUtils.init(
-        //   width: constraints.maxWidth,
-        //   height: constraints.maxHeight,
-        // );
+        ScreenUtils.init(
+          width: constraints.maxWidth,
+          height: constraints.maxHeight,
+        );
         if (constraints.maxWidth >= 1100) {
           return desktop;
         }
