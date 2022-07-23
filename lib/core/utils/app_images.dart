@@ -12,7 +12,7 @@ class AppImages {
   static const String appIcon = '$_appImagesPath/app_icon.png';
 
   ///IMAGES
-  static const String icBilling = '$_appImagesPath/ic_billing';
+  static const String icBilling = '$_appImagesPath/ic_billing.png';
   static const String icCalendar = '$_appImagesPath/ic_calendar.png';
   static const String icClinical = '$_appImagesPath/ic_clinical.png';
   static const String icDashboard = '$_appImagesPath/ic_dashboard.png';
