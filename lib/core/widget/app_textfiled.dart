@@ -52,6 +52,7 @@ class _AppTextFieldState extends State<AppTextField> {
       textAlignVertical: TextAlignVertical.center,
       cursorColor: AppColors.iconColor,
       decoration: InputDecoration(
+        hintStyle: AppTextStyles.hintTextStyle(),
         suffixIcon: showClearIcon(),
         hoverColor: AppColors.iconColor,
         labelStyle: AppTextStyles.blackTextStyle15(),

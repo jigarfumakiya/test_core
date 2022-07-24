@@ -7,7 +7,7 @@ import 'app_colors.dart';
 class AppTextStyles {
   //? Common widget text styles
   static TextStyle hintTextStyle() => GoogleFonts.roboto(
-        color: Colors.white,
+        color: AppColors.textHintColor,
         fontWeight: FontWeight.bold,
         fontSize: 15.sp,
         letterSpacing: -0.02,
