@@ -46,7 +46,6 @@ class AppTextStyles {
       color: Colors.black, fontWeight: FontWeight.w400, fontSize: 13.sp);
 
   static TextStyle blackBoldTextStyle13Underline() => GoogleFonts.roboto(
-      letterSpacing: -4,
       color: Colors.black,
       fontWeight: FontWeight.w400,
       decoration: TextDecoration.underline,
