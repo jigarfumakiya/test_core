@@ -36,7 +36,7 @@ class AppIconButton extends StatelessWidget {
         shadowColor: Colors.white,
         surfaceTintColor: Colors.white,
         minimumSize: const Size(0, 0),
-        padding: const EdgeInsets.all(8),
+        padding: const EdgeInsets.all(10),
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
         enableFeedback: true,
@@ -45,11 +45,11 @@ class AppIconButton extends StatelessWidget {
       child: assetPath != null
           ? Image.asset(
               assetPath!,
-              width: 25,
-              height: 25,
+              width: 22,
+              height: 22,
               color: AppColors.iconColor,
             )
-          : Icon(icon, size: 25, color: AppColors.iconColor),
+          : Icon(icon, size: 22, color: AppColors.iconColor),
     );
   }
 }
