@@ -17,6 +17,9 @@ class AppTextStyles {
   static TextStyle whiteBoldTextStyle10() => GoogleFonts.roboto(
       color: Colors.white, fontWeight: FontWeight.bold, fontSize: 10.sp);
 
+  static TextStyle whiteBoldTextStyle14() => GoogleFonts.roboto(
+      color: Colors.white, fontWeight: FontWeight.bold, fontSize: 14.sp);
+
   //? black text styles
   static TextStyle blackBoldTextStyle24() => GoogleFonts.roboto(
       color: Colors.black, fontWeight: FontWeight.bold, fontSize: 24.sp);
